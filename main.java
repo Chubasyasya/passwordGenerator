@@ -2,7 +2,8 @@ import java.util.Random;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-public class geners{
+
+public class main{
 	public static void main(String[] args){
 		
 		int passwordLenght = 12;
