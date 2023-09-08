@@ -19,6 +19,7 @@ public class main{
 
 	}
 
+	\\shuffle symbols
 	public static void shuffleMethod(String res){
 		List<Character> characters = new ArrayList<>();
 		for (char c : res.toCharArray()){
@@ -32,6 +33,7 @@ public class main{
 		System.out.println(shufflestr);
 	}
 
+	\\generate random symbols
 	public static String returnStr(int len, String symbolis){
 		int lenStr = symbolis.length();
 		Random random = new Random();
